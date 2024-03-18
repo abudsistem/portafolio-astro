@@ -30,7 +30,7 @@ export interface CV {
     postalCode: string
     city: string
     countryCode: string
-    region: string
+    country: string
   }
   
   interface Profiles {

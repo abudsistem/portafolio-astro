@@ -6,7 +6,7 @@ interface Props{
 }
 const {title} = Astro.props
 const {image,summary,url} = basics
----
+--- 
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,7 +14,7 @@ const {image,summary,url} = basics
     <title>{title}</title>
     <meta name="description" content={summary} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/imagenVentana.svg" />
     <link rel="preload" as="image" href={image} />
 
     <meta property="og:url" content={url} />
